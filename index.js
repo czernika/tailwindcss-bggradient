@@ -4,7 +4,7 @@ module.exports = plugin(function({ matchUtilities, theme }) {
     matchUtilities(
         {
             'bg-gradient': (angle) => ({
-                'background-image': `linear-gradient(${angle}deg, var(--tw-gradient-stops))`,
+                'background-image': `linear-gradient(${angle}, var(--tw-gradient-stops))`,
             }),
         },
         {

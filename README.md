@@ -2,7 +2,6 @@
 
 A plugin that allows to use degrees with linear gradients
 
-
 ## Installation
 
 Install the plugin from npm
@@ -28,22 +27,24 @@ Use it as `bg-gradient-{degrees}` utility to specify linear gradient angle
 
 ```html
 <div class="h-40 from-red-500 to-blue-500 bg-gradient-90">
-  90 deg from defaults
+  90 deg from default config
 </div> 
 ```
 
-| Class | Generated CSS |
-| ----- | ----- |
-| `bg-gradient-10` | background-image: `linear-gradient(10deg, var(--tw-gradient-stops))` |
-| `bg-gradient-15` | background-image: `linear-gradient(15deg, var(--tw-gradient-stops))` |
-| `bg-gradient-20` | background-image: `linear-gradient(20deg, var(--tw-gradient-stops))` |
-| `bg-gradient-25` | background-image: `linear-gradient(25deg, var(--tw-gradient-stops))` |
-| `bg-gradient-30` | background-image: `linear-gradient(30deg, var(--tw-gradient-stops))` |
-| `bg-gradient-45` | background-image: `linear-gradient(45deg, var(--tw-gradient-stops))` |
-| `bg-gradient-60` | background-image: `linear-gradient(60deg, var(--tw-gradient-stops))` |
-| `bg-gradient-90` | background-image: `linear-gradient(90deg, var(--tw-gradient-stops))` |
-| `bg-gradient-120` | background-image: `linear-gradient(120deg, var(--tw-gradient-stops))` |
-| `bg-gradient-135` | background-image: `linear-gradient(135deg, var(--tw-gradient-stops))` |
+List of available defaults are:
+
+- `bg-gradient-10`
+- `bg-gradient-15`
+- `bg-gradient-20`
+- `bg-gradient-25`
+- `bg-gradient-30`
+- `bg-gradient-45`
+- `bg-gradient-60`
+- `bg-gradient-90`
+- `bg-gradient-120`
+- `bg-gradient-135`
+
+Each will generate CSS like `background-image: linear-gradient($value, var(--tw-gradient-stops))`
 ## Configuration
 
 ```js
@@ -74,8 +75,8 @@ module.exports = {
   to bottom right on desktop
 </div> 
 
-<div class="h-40 from-red-500 via-yellow-500 to-blue-500 bg-gradient-13.5">
-  13.5 deg from user's custom config
+<div class="h-40 from-red-500 via-yellow-500 to-blue-500 bg-gradient-75">
+  75 deg from user's custom config
 </div>
 ```
 
