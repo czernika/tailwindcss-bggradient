@@ -1,12 +1,21 @@
 {
-  "name": "@tailwindcss/gradient",
+  "name": "tailwindcss-gradient",
   "version": "1.0.0",
   "description": "Add degree values into background gradients",
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "gradients"
+  ],
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
-  "author": "<aliha.devs@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/czernika/tailwindcss-bggradient.git"
+  },
+  "author": "Aliakseyenka Ihar <aliha.devs@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "tailwindcss": "3.x"
