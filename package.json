@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-gradient",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Add degree values into background gradients",
   "keywords": [
     "tailwindcss",
