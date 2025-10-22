@@ -1,5 +1,7 @@
 # TailwindCSS gradients
 
+Only version 3 supported, **NO SUPPORT FOR TAILWINDCSS version 4+**. TailwindCSS 4.0 release contains [gradient angles](https://tailwindcss.com/docs/background-image#quick-reference)
+
 TailwindCSS plugin that allows using degrees in CSS gradients
 
 ![gradient example with TailwindCSS classes](./IMAGES/example.png)
